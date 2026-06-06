@@ -1,0 +1,9 @@
+<section>
+    @for( user of Users; track user.id) {
+        <button >
+            <img [src]="user.avatar" [alt]="user.name">
+            <span>{{user.name}}</span>
+        </button>
+    }
+
+</section>
